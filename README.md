@@ -24,12 +24,10 @@ Page numbers are kept from the start so citations point to a real page instead o
 npm install
 ```
 
-`.env.local`:
+Copy the example env file and fill in your keys:
 
 ```bash
-NEXT_PUBLIC_SUPABASE_URL=
-SUPABASE_SERVICE_ROLE_KEY=
-GOOGLE_GENERATIVE_AI_API_KEY=
+cp .env.example .env.local
 ```
 
 The service role key is only used in API routes, never in the browser.

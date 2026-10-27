@@ -24,12 +24,10 @@ Sayfa numaraları baştan korunuyor, böylece kaynak "PDF'in bir yerinde" değil
 npm install
 ```
 
-`.env.local`:
+Örnek env dosyasını kopyalayıp kendi key'lerini yaz:
 
 ```bash
-NEXT_PUBLIC_SUPABASE_URL=
-SUPABASE_SERVICE_ROLE_KEY=
-GOOGLE_GENERATIVE_AI_API_KEY=
+cp .env.example .env.local
 ```
 
 Service role key sadece API route'larında kullanılıyor, tarayıcıya hiç gitmiyor.
